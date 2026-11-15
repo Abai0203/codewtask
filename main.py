@@ -19,3 +19,8 @@ def factorial(n):
     import math
 
     return math.factorial(n)
+
+# 5 
+
+def bool_to_word(boolean):
+    return "Yes" if boolean else "No"
