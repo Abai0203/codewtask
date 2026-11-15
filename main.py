@@ -169,3 +169,8 @@ def invert(lst):
 
 def century(year):
     return (year + 99) // 100
+
+# 29 
+
+def number_to_string(num: int) -> str:
+    return str(num) 
