@@ -12,3 +12,10 @@ def digitize(n):
 
 def summation(num):
     return num * (num + 1) // 2
+
+# 4
+
+def factorial(n):
+    import math
+
+    return math.factorial(n)
