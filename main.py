@@ -29,3 +29,8 @@ def bool_to_word(boolean):
 
 def remove_char(s):
     return s[1:-1]
+
+# 7
+
+def positive_sum(arr):
+    return sum(x for x in arr if x > 0)
