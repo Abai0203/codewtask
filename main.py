@@ -201,3 +201,11 @@ import time
 
 def make_me_slow():
     time.sleep(7)
+
+
+# 34 
+
+import re
+
+def reverse_words(text):
+    return "".join(w[::-1] if w.strip() else w for w in re.findall(r'\S+|\s+', text))
