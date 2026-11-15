@@ -24,3 +24,8 @@ def factorial(n):
 
 def bool_to_word(boolean):
     return "Yes" if boolean else "No"
+
+# 6
+
+def remove_char(s):
+    return s[1:-1]
