@@ -159,3 +159,8 @@ def get_grade(s1, s2, s3):
 def get_middle(s):
     mid = len(s) // 2
     return s[mid - 1 : mid + 1] if len(s) % 2 == 0 else s[mid]
+
+# 27
+
+def invert(lst):
+    return [-x for x in lst]
