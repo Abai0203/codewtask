@@ -125,3 +125,9 @@ def filter_string(st):
 
 def find_average(numbers):
     return sum(numbers) / len(numbers) if numbers else 0
+
+
+# 23
+
+def check(seq, elem):
+    return elem in seq
