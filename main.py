@@ -174,3 +174,8 @@ def century(year):
 
 def number_to_string(num: int) -> str:
     return str(num) 
+
+# 30
+
+def disemvowel(string_):
+    return "".join(c for c in string_ if c not in "aeiouAEIOU")
