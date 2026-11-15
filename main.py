@@ -120,3 +120,8 @@ def high_and_low(numbers):
 
 def filter_string(st):
     return int("".join(c for c in st if c.isdigit()))
+
+# 22
+
+def find_average(numbers):
+    return sum(numbers) / len(numbers) if numbers else 0
