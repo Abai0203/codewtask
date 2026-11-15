@@ -43,3 +43,8 @@ def minimum(arr):
 
 def maximum(arr):
     return max(arr)
+
+# 9
+
+def dna_to_rna(dna):
+    return dna.replace('T', 'U')
