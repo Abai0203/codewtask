@@ -179,3 +179,8 @@ def number_to_string(num: int) -> str:
 
 def disemvowel(string_):
     return "".join(c for c in string_ if c not in "aeiouAEIOU")
+
+# 31
+
+def sum_two_smallest_numbers(numbers):
+    return sum(sorted(numbers)[:2])
