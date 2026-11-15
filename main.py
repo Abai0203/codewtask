@@ -91,3 +91,9 @@ def string_to_number(s):
 
 def descending_order(num):
     return int("".join(sorted(str(num), reverse=True)))
+
+# 17
+
+def xo(s):
+    s = s.lower()
+    return s.count('x') == s.count('o')
