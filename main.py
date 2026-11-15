@@ -131,3 +131,9 @@ def find_average(numbers):
 
 def check(seq, elem):
     return elem in seq
+
+# 24
+
+def is_isogram(string):
+    string = string.lower()
+    return len(set(string)) == len(string)
