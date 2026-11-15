@@ -48,3 +48,8 @@ def maximum(arr):
 
 def dna_to_rna(dna):
     return dna.replace('T', 'U')
+
+# 10
+
+def greet(name):
+    return f"Hello, {name} how are you doing today?"
