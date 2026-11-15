@@ -70,3 +70,8 @@ def positive_to_negative(binary):
         result[i] = s % 2
         carry = s // 2
     return result
+
+# 13
+
+def simple_multiplication(number):
+    return number * 8 if number % 2 == 0 else number * 9
