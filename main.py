@@ -86,3 +86,8 @@ def square_sum(numbers):
 
 def string_to_number(s):
     return int(s)
+
+# 16
+
+def descending_order(num):
+    return int("".join(sorted(str(num), reverse=True)))
