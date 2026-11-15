@@ -194,3 +194,10 @@ def basic_op(operator, value1, value2):
         '*': value1 * value2,
         '/': value1 / value2
     }[operator]
+
+# 33 
+
+import time
+
+def make_me_slow():
+    time.sleep(7)
