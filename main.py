@@ -164,3 +164,8 @@ def get_middle(s):
 
 def invert(lst):
     return [-x for x in lst]
+
+# 28
+
+def century(year):
+    return (year + 99) // 100
