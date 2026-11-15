@@ -81,3 +81,8 @@ def simple_multiplication(number):
 
 def square_sum(numbers):
     return sum(x ** 2 for x in numbers)
+
+# 15
+
+def string_to_number(s):
+    return int(s)
