@@ -184,3 +184,13 @@ def disemvowel(string_):
 
 def sum_two_smallest_numbers(numbers):
     return sum(sorted(numbers)[:2])
+
+# 32
+
+def basic_op(operator, value1, value2):
+    return {
+        '+': value1 + value2,
+        '-': value1 - value2,
+        '*': value1 * value2,
+        '/': value1 / value2
+    }[operator]
