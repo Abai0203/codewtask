@@ -75,3 +75,9 @@ def positive_to_negative(binary):
 
 def simple_multiplication(number):
     return number * 8 if number % 2 == 0 else number * 9
+
+
+# 14
+
+def square_sum(numbers):
+    return sum(x ** 2 for x in numbers)
