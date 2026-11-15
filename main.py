@@ -209,3 +209,9 @@ import re
 
 def reverse_words(text):
     return "".join(w[::-1] if w.strip() else w for w in re.findall(r'\S+|\s+', text))
+
+
+# 35
+
+def alphabet_position(text):
+    return " ".join(str(ord(c.lower()) - 96) for c in text if c.isalpha())
