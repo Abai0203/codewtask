@@ -58,3 +58,15 @@ def greet(name):
 
 def find_deleted_number(arr, mixed_arr):
     return sum(arr) - sum(mixed_arr)
+
+# 12
+
+def positive_to_negative(binary):
+    flipped = [1 - b for b in binary]
+    carry = 1
+    result = [0] * len(binary)
+    for i in range(len(binary) - 1, -1, -1):
+        s = flipped[i] + carry
+        result[i] = s % 2
+        carry = s // 2
+    return result
