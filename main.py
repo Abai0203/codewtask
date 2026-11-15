@@ -114,3 +114,9 @@ def smash(words):
 def high_and_low(numbers):
     nums = [int(x) for x in numbers.split()]
     return f"{max(nums)} {min(nums)}"
+
+
+# 21
+
+def filter_string(st):
+    return int("".join(c for c in st if c.isdigit()))
