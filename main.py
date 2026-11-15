@@ -34,3 +34,12 @@ def remove_char(s):
 
 def positive_sum(arr):
     return sum(x for x in arr if x > 0)
+
+# 8
+
+def minimum(arr):
+    return min(arr)
+
+
+def maximum(arr):
+    return max(arr)
