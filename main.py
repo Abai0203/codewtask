@@ -97,3 +97,8 @@ def descending_order(num):
 def xo(s):
     s = s.lower()
     return s.count('x') == s.count('o')
+
+# 18
+
+def friend(x):
+    return [name for name in x if len(name) == 4]
