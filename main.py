@@ -53,3 +53,8 @@ def dna_to_rna(dna):
 
 def greet(name):
     return f"Hello, {name} how are you doing today?"
+
+# 11
+
+def find_deleted_number(arr, mixed_arr):
+    return sum(arr) - sum(mixed_arr)
