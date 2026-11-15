@@ -152,3 +152,10 @@ def get_grade(s1, s2, s3):
         return 'D'
     else:
         return 'F'
+
+
+# 26
+
+def get_middle(s):
+    mid = len(s) // 2
+    return s[mid - 1 : mid + 1] if len(s) % 2 == 0 else s[mid]
